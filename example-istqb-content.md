@@ -1,28 +1,71 @@
 # Fundamentals of Testing
 
-Can I write \LaTeX{} code here? Sure you can.  
-And what about some formulas? That is fine as well.  
+## Showcase of the LaTeX template for ISTQB documents
 
-If you enable the `fencedCode`, `rawAttribute`, and `texMathDollars` options, You can mix `\LaTeX`{=tex} code in Markdown! Inline math equations go in like so: $\omega = d\phi / dt$. Displaymath too:
+### Regular text
 
-``` {=tex}
-\begin{equation}
-I = \int \rho R^{2} dV
-\end{equation}
-```
+Regular parapgraphs and senteces are written without any formatting. New line is depited by two spaces at the end of the line and a new line.
 
-Section links with custom text:
+Nunc cursus ultrices magna, eget accumsan sem facilisis vitae. Proin eget facilisis velit. Praesent tortor arcu, sodales ut auctor eget, tempor ut justo. Nunc sed lorem in nisl venenatis ornare sodales quis massa. In molestie hendrerit sagittis. Duis id sem at enim laoreet tincidunt non eu quam. Suspendisse potenti. Etiam luctus efficitur tortor. Vivamus a justo libero.  
 
-- Link to [testing principles](#section:Seven-Testing-Principles) should redirect you to the section Seven Testing Principles in this MD document.  
-- Link to [another file section](#section:section-no1) will redirect you to the Section 1 in other MD document.  
+Ut a metus sed quam ornare sagittis nec a velit. Donec vehicula purus nibh, eget tempor mauris laoreet rhoncus. Nullam vehicula eu velit quis mollis. Vestibulum venenatis turpis odio, eget gravida nulla mattis eu. Praesent feugiat risus in ante feugiat blandit. Curabitur et odio sed sapien suscipit vestibulum. Mauris viverra neque vitae arcu tempus lobortis. Maecenas vulputate elit quis nisi facilisis ultrices. Aenean imperdiet nibh a mauris efficitur pretium. Donec posuere sodales augue sed scelerisque. In hac habitasse platea dictumst.  
 
-Section references:
+
+### Lists
+
+Unordered list starts with some sentence, following a new line. Asterisk (`*`) depict each list item. 
+
+* This is the first item in the list
+* Folowed by a second one
+* And so on, until you have them all here
+
+Numbered lists are the same, but uses number sign dot to add a list item.
+
+#. This is the first item in the list
+#. Folowed by a second one
+#. And so on, until you have them all here
+
+### Section references
+
+If you want to reference the section, it have to have an [header attribute](https://witiko.github.io/markdown/#option-headerAttributes). So for this section it would be not only text `### Section references` but also a header attribute so it will be define like `### Section references {#section-references}`
+
+Section references without a custom text are done like this:
 
 - Link to <#section:seven-testing-principles> should redirect you to the section Seven Testing Principles in this MD document.  
-- Link to <#section:section-no1> will redirect you to the Section 1 in other MD document.  
 - Link to <#section:fundamentals-of-testing> will redirect you to the the head of another MD document.
 
+Section references with custom text:
+
+- You can add link to the section with custom text like this [testing principles](#section:seven-testing-principles). And it doesn't matter if the section is in this or any other MD document.
+
 For more information, see the documentation of the Markdown package for \TeX [@novotny:2017].
+
+### Figures
+
+Here is an example image that is loaded from the `img/` folder:
+
+ ![example](istqb-logo.png "Here is a caption describing the image."){width=3cm}
+
+You can reference the image from the text of the document as follows: <#figure:example>.
+
+### Tables
+
+Here is an example table:
+
+ | Right | Left | Default | Center |
+ |------:|:-----|---------|:------:|
+ |   12  |  12  |    12   |    12  |
+ |  123  |  123 |   123   |   123  |
+ |    1  |  1   |   1     |     1  |
+
+ : Here is a caption describing the table. \label{table:label}
+
+You can reference the table from the text of the document as follows: <#table:label>.
+
+### References
+
+Here are example citations for standards [@iso-iec:2022], ISTQB documents [@istqb:2023], books [@beizer:1990], journal articles [@brykczynski:1992], and web pages [@marick:2013]. For instructions on writing your own references to `example.bib`, see the Bib\LaTeX{} manual [@kime:2023, Chapter 2]. The full list of references is shown at the end of this document.
+
 
 ## What is Testing?
 
@@ -32,7 +75,6 @@ A common misperception of testing is that it only consists of running tests, i.e
 
 Some testing does involve the execution of the component or system being tested; such testing is called dynamic testing. Other testing does not involve the execution of the component or system being tested; such testing is called static testing. So, testing also includes reviewing work products such as requirements, user stories, and source code.
 Another common misperception of testing is that it focuses entirely on verification of requirements, user stories, or other specifications. While testing does involve checking whether the system meets specified requirements, it also involves validation, which is checking whether the system will meet user and other stakeholder needs in its operational environment(s).  
-
 
 
 Test activities are organized and carried out differently in different lifecycles (see section 2.1). 
@@ -54,29 +96,6 @@ The objectives of testing can vary, depending upon the context of the component 
 
 * During component testing, one objective may be to find as many failures as possible so that the underlying defects are identified and fixed early. Another objective may be to increase code coverage of the component tests.
 * During acceptance testing, one objective may be to confirm that the system works as expected and satisfies requirements. Another objective of this testing may be to give information to stakeholders about the risk of releasing the system at a given time.
-
-### Testing and Debugging
-Testing and debugging are different. Executing tests can show failures that are caused by defects in the software. Debugging is the development activity that finds, analyzes, and fixes such defects. Subsequent confirmation testing checks whether the fixes resolved the defects. In some cases, testers are responsible for the initial test and the final confirmation test, while developers do the debugging, associated component and component integration testing (continues integration). However, in Agile development and in some other software development lifecycles, testers may be involved in debugging and component testing.
-
-ISO standard (ISO/IEC/IEEE 29119-1) has further information about software testing concepts.
-
-## Why is Testing Necessary?
-Rigorous testing of components and systems, and their associated documentation, can help reduce the risk of failures occurring during operation. When defects are detected, and subsequently fixed, this contributes to the quality of the components or systems. In addition, software testing may also be required to meet contractual or legal requirements or industry-specific standards.
-
-### Testing’s Contributions to Success
-Throughout the history of computing, it is quite common for software and systems to be delivered into operation and, due to the presence of defects, to subsequently cause failures or otherwise not meet the stakeholders’ needs. However, using appropriate test techniques can reduce the frequency of such problematic deliveries, when those techniques are applied with the appropriate level of test expertise, in the appropriate test levels, and at the appropriate points in the software development lifecycle. Examples include:
-
-* Having testers involved in requirements reviews or user story refinement could detect defects in these work products. The identification and removal of requirements defects reduces the risk of incorrect or untestable features being developed.
-* Having testers work closely with system designers while the system is being designed can increase each party’s understanding of the design and how to test it. This increased understanding can reduce the risk of fundamental design defects and enable tests to be identified at an early stage.
-* Having testers work closely with developers while the code is under development can increase each party’s understanding of the code and how to test it. This increased understanding can reduce the risk of defects within the code and the tests.
-* Having testers verify and validate the software prior to release can detect failures that might otherwise have been missed, and support the process of removing the defects that caused the failures (i.e., debugging). This increases the likelihood that the software meets stakeholder needs and satisfies requirements.
-
-In addition to these examples, the achievement of defined test objectives (see section 1.1.1) contributes to overall software development and maintenance success. 
-
-### Quality Assurance and Testing
-While people often use the phrase quality assurance (or just QA) to refer to testing, quality assurance and testing are not the same, but they are related. A larger concept, quality management, ties them together. Quality management includes all activities that direct and control an organization with regard to quality. Among other activities, quality management includes both quality assurance and quality control. Quality assurance is typically focused on adherence to proper processes, in order to provide confidence that the appropriate levels of quality will be achieved. When processes are carried out properly, the work products created by those processes are generally of higher quality, which contributes to defect prevention. In addition, the use of root cause analysis to detect and remove the causes of defects, along with the proper application of the findings of retrospective meetings to improve processes, are important for effective quality assurance.
-
-Quality control involves various activities, including test activities, that support the achievement of appropriate levels of quality. Test activities are part of the overall software development or maintenance process. Since quality assurance is concerned with the proper execution of the entire process, quality assurance supports proper testing. As described in sections 1.1.1 and 1.2.1, testing contributes to the achievement of quality in a variety of ways. 
 
 ### Errors, Defects, and Failures 
 A person can make an error (mistake), which can lead to the introduction of a defect (fault or bug) in the software code or in some other related work product. An error that leads to the introduction of a defect in one work product can trigger an error that leads to the introduction of a defect in a related work product. For example, a requirements elicitation error can lead to a requirements defect, which then results in a programming error that leads to a defect in the code.
@@ -126,6 +145,3 @@ A number of testing principles have been suggested over the past 50 years and of
   Some organizations expect that testers can run all possible tests and find all possible defects, but principles 2 and 1, respectively, tell us that this is impossible. Further, it is a fallacy (i.e., a mistaken belief) to expect that just finding and fixing a large number of defects will ensure the success of a system. For example, thoroughly testing all specified requirements and fixing all defects found could still produce a system that is difficult to use, that does not fulfill the users’ needs and expectations, or that is inferior compared to other competing systems.  
   
 See Myers 2011, Kaner 2002, Weinberg 2008, and Beizer 1990 for examples of these and other testing principles. 
-
-## Test Process
-There is no one universal software test process, but there are common sets of test activities without which testing will be less likely to achieve its established objectives. These sets of test activities are a test process. The proper, specific software test process in any given situation depends on many factors. Which test activities are involved in this test process, how these activities are implemented, and when these activities occur may be discussed in an organization’s test strategy. 

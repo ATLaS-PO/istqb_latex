@@ -27,34 +27,3 @@ coverage, debugging, defect, error, failure, quality, quality assurance, root ca
 1.5 The Psychology of Testing  
   FL-1.5.1 (K1) Identify the psychological factors that influence the success of testing  
   FL-1.5.2 (K2) Explain the difference between the mindset required for test activities and the mindset required for development activities  
-
-
-# Section no1 {#section-no1}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique id eros sed bibendum. Vivamus vestibulum non velit viverra sodales. Praesent bibendum libero vitae est auctor vestibulum. Sed in ligula malesuada, venenatis dui eget, egestas diam. Donec sit amet nunc eget justo volutpat molestie quis a mauris. Aliquam efficitur sem interdum lacus tristique, ut fringilla orci lacinia. Pellentesque eros ipsum, mattis ut orci non, venenatis pellentesque dolor. Integer eu leo dictum, consectetur arcu sed, eleifend lorem. Sed id nisi vitae nunc interdum lobortis.
-
-Quisque mollis ante ac tellus commodo, ut sagittis risus rutrum. Aenean pharetra diam purus, non venenatis magna convallis ut. Nam finibus sapien ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus pulvinar nisi a dolor venenatis tempor. Donec egestas fringilla sapien id placerat. Aliquam est turpis, luctus porta convallis non, ullamcorper at lectus. Nam nisi nisl, tincidunt quis tristique eu, semper ac purus. Nam in lorem a sem condimentum aliquet. Maecenas convallis massa ac elementum varius. Sed pharetra nisi quis commodo rutrum. Nullam ultrices purus leo, nec tincidunt velit accumsan nec. Pellentesque vitae aliquet quam. Ut pulvinar augue bibendum bibendum rutrum.
-
-Aenean porta, augue sit amet fermentum aliquam, ante felis gravida nunc, et bibendum odio neque nec velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam tincidunt nisi lorem, nec ultricies metus pulvinar nec. Vestibulum neque sapien, lobortis ac ligula eget, cursus vulputate felis. Nulla erat neque, commodo in diam id, porta fringilla libero. Curabitur vitae consectetur ex. Maecenas egestas venenatis iaculis. Etiam sed elit ut sapien consectetur elementum. Nunc imperdiet purus eu enim consequat aliquet. Phasellus posuere mi et dui auctor aliquam vel a tellus. Donec lectus erat, egestas at nisi nec, mattis imperdiet ipsum. Integer venenatis pretium felis finibus facilisis. Proin mauris eros, placerat et odio eget, mattis ultrices nibh. Fusce rhoncus tempus massa id commodo.
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi in eros vestibulum, scelerisque diam at, bibendum leo. Fusce consequat fringilla odio, vel facilisis nulla feugiat nec. Integer eu blandit libero, ac interdum ligula. Curabitur in mattis lorem, vel tempus dui. Praesent a est eget lectus laoreet placerat vel eget risus. In eget eros sollicitudin elit vestibulum mattis. Fusce sapien enim, elementum vitae tempus sit amet, laoreet a sapien. Morbi porta consequat felis ut pulvinar. Fusce imperdiet gravida elit, quis ultricies nunc vehicula et. Etiam sed tristique metus, dignissim commodo augue. Mauris tempor turpis quis nunc condimentum porta. Nunc ut quam vitae neque tristique aliquam non sed est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce id augue imperdiet, consectetur leo non, lacinia justo. Nunc pellentesque sit amet quam nec imperdiet.
-
-Here is an example image that is loaded from the `img/` folder:
-
- ![example](istqb-logo.png "Here is a caption describing the image."){width=3cm}
-
-You can reference the image from the text of the document as follows: <#figure:example>.
-
-Here is an example table:
-
- | Right | Left | Default | Center |
- |------:|:-----|---------|:------:|
- |   12  |  12  |    12   |    12  |
- |  123  |  123 |   123   |   123  |
- |    1  |  1   |   1     |     1  |
-
- : Here is a caption describing the table. \label{table:label}
-
-You can reference the table from the text of the document as follows: <#table:label>.
-
-Here are example citations for standards [@iso-iec:2022], ISTQB documents [@istqb:2023], books [@beizer:1990], journal articles [@brykczynski:1992], and web pages [@marick:2013]. For instructions on writing your own references to `example.bib`, see the Bib\LaTeX{} manual [@kime:2023, Chapter 2]. The full list of references is shown at the end of this document.
