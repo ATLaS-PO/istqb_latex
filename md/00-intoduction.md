@@ -5,11 +5,11 @@ This syllabus outlines the scope of the Agile Test Leadership at Scale certifica
 
 Together with the ATLaS body of knowledge the syllabus forms the basis for the International Software Testing Qualification for AgileTestLeadership at Scaleat theAdvancedLevel. The ISTQB® provides this syllabus as follows:
 
-1. To member boards, to translate into their local language and to accredit training providers. Member boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
-2. To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
-3. To training providers, to produce courseware and determine appropriate teaching methods.
-4. To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
-5. To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
+#. To member boards, to translate into their local language and to accredit training providers. Member boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
+#. To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
+#. To training providers, to produce courseware and determine appropriate teaching methods.
+#. To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
+#. To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
 
 ## The Agile Test Leadership at Scale Certification
 
@@ -55,7 +55,7 @@ A person who has gained the qualification in this syllabus can in a value-driven
 
 An example of a measurable key result for the business outcome is:
 
-- Provide quality assistance to x colleagues, who do not have a background in testing or quality management
+* Provide quality assistance to x colleagues, who do not have a background in testing or quality management
 
 (replace x with your own target).
 
@@ -65,12 +65,12 @@ In a value-driven organization, it is still crucial to have a strategy for build
 
 Examples of measurable key results for the business outcome are:
 
-- A continuous reduction in lead time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
-- Time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
-- x % improvement in reaching business benefits
-- x % reduction in production failures or customer complaints (a customer is whoever consumes your product or service)
-- x% increase in quality improvement experiments inspired by the organizational test strategy
-- x% increase in improvement feedback
+* A continuous reduction in lead time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
+* Time for Minimum Viable Products (MVP) or Minimum Marketable Features (MMF)
+* x % improvement in reaching business benefits
+* x % reduction in production failures or customer complaints (a customer is whoever consumes your product or service)
+* x% increase in quality improvement experiments inspired by the organizational test strategy
+* x% increase in improvement feedback
 
 ### BO 3 Continuously improve test processes addressing challenges in the context of agile at scale product development
 
@@ -80,10 +80,10 @@ Learning objectives support the business outcomes and are used to create the Adv
 
 In general, all content of this syllabus are examinable at a K1 level, except for the Introduction and Appendices. That is, the candidate may be asked to recognize, remember, or recall a keyword or concept mentioned in any of the chapters. The specific learning objectives levels are shown at the beginning of each chapter, and classified as follows:
 
-- K1: Remember
-- K2: Understand
-- K3: Apply
-- K4: Analyze
+* K1: Remember
+* K2: Understand
+* K3: Apply
+* K4: Analyze
 
 Further details and examples of learning objectives are given in Appendix A.
 
@@ -92,10 +92,10 @@ All terms listed as keywords just below chapter headings shall be remembered (K1
 ## Non-Examinable Hands-On Objectives
 
 LOs and hands-on objectives (HOs) focus on practical skills and competencies. However, HOs are not examined by the multiple-choice exam questions. It is expected that HOs are covered either as part of an accredited training or as self-study. HOs are listed at the beginning of each chapter together with the LOs. The level of an HO is classified as follows:
-•	H0: This can include a live demo of an exercise or recorded video. Since this is not performed by the trainee, it is not strictly an exercise.
-•	H1: Guided exercise. The trainees follow a sequence of steps performed by the trainer.
-•	H2: Exercise with hints. The trainee is given an exercise with relevant hints to enable the exercise to be solved within the given timeframe.
-•	H3: Unguided exercises without hints.
+*	H0: This can include a live demo of an exercise or recorded video. Since this is not performed by the trainee, it is not strictly an exercise.
+*	H1: Guided exercise. The trainees follow a sequence of steps performed by the trainer.
+*	H2: Exercise with hints. The trainee is given an exercise with relevant hints to enable the exercise to be solved within the given timeframe.
+*	H3: Unguided exercises without hints.
  
 Training material owners and people who self-study can find additional guidance on how to include practical elements to fulfil HOs in the ATLaS Accreditation Guidelines.
 
@@ -109,16 +109,16 @@ Refer to the page for CTAL-ATLaS in the Exam Structure Table document for detail
 
 The entry criteria for taking the ATLaS exam are:
 
-- either the ISTQB® Foundation Level certificate v4.0
-- r a version older than v4.0 of the ISTQB® Foundation Level certificate and the ISTQB® Agile Tester Foundation Level certificate
+* either the ISTQB® Foundation Level certificate v4.0
+* r a version older than v4.0 of the ISTQB® Foundation Level certificate and the ISTQB® Agile Tester Foundation Level certificate
 
 When the ISTQB® Agile Tester Foundation Level no longer is available, the ISTQB® Foundation Level certificate v4.0 will become the only entry criterion.
 
 It is strongly recommended that candidates also:
 
-- Have at least three years of experience working in an agile team or an agile organization
-- Are familiar with at least one agile scaling framework
-- Take a course that has been accredited to ISTQB standards (by one of the ISTQB-recognized member boards).
+* Have at least three years of experience working in an agile team or an agile organization
+* Are familiar with at least one agile scaling framework
+* Take a course that has been accredited to ISTQB standards (by one of the ISTQB-recognized member boards).
 
 ## Accreditation
 
@@ -140,32 +140,32 @@ The software industry changes rapidly. To deal with these changes and to provide
 
 The level of detail in this syllabus allows internationally consistent courses and exams. In order to achieve this goal, the syllabus consists of:
 
-- General instructional objectives describing the intention of the \<Level name\> Level
-- A list of terms that students must be able to recall
-- Learning objectives for each knowledge area, describing the cognitive learning outcome to be achieved
-- A description of the key concepts, including references to sources such as accepted literature or standards
+* General instructional objectives describing the intention of the Advanced Level Agile Test Leadership at Scale Level
+* A list of terms that students must be able to recall
+* Learning objectives for each knowledge area, describing the cognitive learning outcome to be achieved
+* A description of the key concepts, including references to sources such as accepted literature or standards
 
 The syllabus content is not a description of the entire knowledge area of software testing; it reflects the level of detail to be covered in \< Level name\>Level training courses. It focuses on test concepts and techniques that can apply to all software projects, including those following Agile methods. This syllabus does not contain any specific learning objectives related to Agile testing, but it does discuss how these concepts apply in Agile projects and other types of projects.
 
 ## How this Syllabus is Organized
 
-There are \<six\> chapters with examinable content. The top-level heading for each chapter specifies the time for the chapter; timing is not provided below chapter level. _For accredited training courses, the syllabus requires a minimum of_ \<16.75\>hours of instruction, distributed across the \<six\> chapters as follows:
+There are 6 chapters with examinable content. The top-level heading for each chapter specifies the time for the chapter; timing is not provided below chapter level. For accredited training courses, the syllabus requires a minimum of 16.75 hours of instruction, distributed across the 6 chapters as follows:
 
-- Chapter 1: 175 minutes Fundamentals of Testing
-  - The tester learns the basic principles related to testing, the reasons why testing is required, what test objectives are, and the principles of successful testing.
-  - The tester understands the test process, the major activities, and work products.
-- Chapter 2: 100 minutes Testing Throughout the Software Development Lifecycle
-  - The tester learns how testing is incorporated in every step of a software development lifecycle.
-  - The tester learns about the different test levels, test types, and impact analysis when working with maintenance testing.
-- Chapter 3: 135 minutes Static Testing
-  - The tester learns the various static techniques of testing such as static analysis and reviews (i.e., informal reviews, walkthroughs, technical reviews, and inspections).
-  - The tester learns how to apply a review technique to a work product to find defects.
-- Chapter 4: 330 minutes Test Techniques
-  - The tester learns how to apply test techniques to derive test cases from other software work products.
-  - Black-box, white-box, and experience-based test techniques are covered.
-- Chapter 5: 225 minutes Test Management
-  - Test management is covered from a perspective where the tester can work with test managers, focusing on risk based testing, test execution and defect reporting and handling.
-  - The tester learns what could be included in the various test documentation work products, such as test plans and reports.
-  - The tester learns to report defects in a clear and understandable way.
-- Chapter 6: 40 minutes Tool Support for Testing
-  - The tester learns to classify tools, the risks and benefits connected with tools, and aspects of selecting and introducing tools.
+* Chapter 1: 175 minutes Fundamentals of Testing
+  * The tester learns the basic principles related to testing, the reasons why testing is required, what test objectives are, and the principles of successful testing.
+  * The tester understands the test process, the major activities, and work products.
+* Chapter 2: 100 minutes Testing Throughout the Software Development Lifecycle
+  * The tester learns how testing is incorporated in every step of a software development lifecycle.
+  * The tester learns about the different test levels, test types, and impact analysis when working with maintenance testing.
+* Chapter 3: 135 minutes Static Testing
+  * The tester learns the various static techniques of testing such as static analysis and reviews (i.e., informal reviews, walkthroughs, technical reviews, and inspections).
+  * The tester learns how to apply a review technique to a work product to find defects.
+* Chapter 4: 330 minutes Test Techniques
+  * The tester learns how to apply test techniques to derive test cases from other software work products.
+  * Black-box, white-box, and experience-based test techniques are covered.
+* Chapter 5: 225 minutes Test Management
+  * Test management is covered from a perspective where the tester can work with test managers, focusing on risk based testing, test execution and defect reporting and handling.
+  * The tester learns what could be included in the various test documentation work products, such as test plans and reports.
+  * The tester learns to report defects in a clear and understandable way.
+* Chapter 6: 40 minutes Tool Support for Testing
+  * The tester learns to classify tools, the risks and benefits connected with tools, and aspects of selecting and introducing tools.
