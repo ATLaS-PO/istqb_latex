@@ -147,7 +147,7 @@ The level of detail in this syllabus allows internationally consistent courses a
 
 The syllabus content is not a description of the entire knowledge area of software testing; it reflects the level of detail to be covered in \< Level name\>Level training courses. It focuses on test concepts and techniques that can apply to all software projects, including those following Agile methods. This syllabus does not contain any specific learning objectives related to Agile testing, but it does discuss how these concepts apply in Agile projects and other types of projects.
 
-## How this Syllabus is Organized
+## How this Syllabus is Organized {#how-this-syllabus-is-organized}
 
 There are 6 chapters with examinable content. The top-level heading for each chapter specifies the time for the chapter; timing is not provided below chapter level. For accredited training courses, the syllabus requires a minimum of 16.75 hours of instruction, distributed across the 6 chapters as follows:
 
