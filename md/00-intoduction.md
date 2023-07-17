@@ -5,11 +5,11 @@ This syllabus outlines the scope of the Agile Test Leadership at Scale certifica
 
 Together with the ATLaS body of knowledge the syllabus forms the basis for the International Software Testing Qualification for AgileTestLeadership at Scaleat theAdvancedLevel. The ISTQB® provides this syllabus as follows:
 
-  To member boards, to translate into their local language and to accredit training providers. Member boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
-  To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
-  To training providers, to produce courseware and determine appropriate teaching methods.
-  To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
-  To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
+#. To member boards, to translate into their local language and to accredit training providers. Member boards may adapt the syllabus to their particular language needs and modify the references to adapt to their local publications.
+#. To certification bodies, to derive examination questions in their local language adapted to the learning objectives for this syllabus.
+#. To training providers, to produce courseware and determine appropriate teaching methods.
+#. To certification candidates, to prepare for the certification exam (either as part of a training course or independently).
+#. To the international software and systems engineering community, to advance the profession of software and systems testing, and as a basis for books and articles.
 
 ## The Agile Test Leadership at Scale Certification
 
