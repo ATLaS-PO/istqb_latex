@@ -88,8 +88,6 @@
 \RequirePackage{xcolor}
 \RequirePackage{mdframed}
 \RequirePackage{lastpage}
-\PassOptionsToPackage{hidelinks}{hyperref}
-\RequirePackage{hyperref}
 \ExplSyntaxOn
 \str_new:N \g_istqb_version_str
 \str_gset:Nn
@@ -210,6 +208,55 @@
   \printbibliography[filter=articles-and-web-pages, title=Articles and Web Pages]
 }
 
+% Landing Page
+\ExplSyntaxOn
+\str_new:N \g_istqb_title_str
+\str_new:N \g_istqb_code_str
+\newcommand
+  \istqblandingpage
+  {
+    \group_begin:
+    \parskip=0pt
+    \centering
+    \leavevmode \par \vfill
+    \normalfont
+    \bfseries
+    \fontsize { 24 } { 28.8 } \selectfont
+    \g_istqb_schema_str \\
+    \tl_if_empty:NF
+      \g_istqb_title_str
+      {
+        \g_istqb_title_str
+        \tl_if_empty:NF
+          \g_istqb_code_str
+          {
+            {}~(\g_istqb_code_str)
+          }
+        \\
+      }
+    \g_istqb_level_str \\
+    Syllabus
+    \par \vfill
+    \normalfont
+    \itshape
+    \fontsize { 18 } { 21.6 } \selectfont
+    \g_istqb_version_str
+    \par \vfill \vfill
+    \leaders \vrule width \textwidth \vskip 1pt
+    \par \vspace { 0.2in }
+    \normalfont
+    \fontsize { 18 } { 21.6 } \selectfont
+    International~Software~Testing~Qualifications~Board
+    \par \vspace { 0.3in }
+    \leaders \vrule width \textwidth \vskip 1pt
+    \par \vspace { 0.45in }
+    \includegraphics [ height = 1.2in ] { istqb-logo }
+    \par \vspace { 1.45in }
+    \group_end:
+    \clearpage
+  }
+\ExplSyntaxOff
+
 % Headings
 %% Sections, subsections, and subsubsections
 \RequirePackage{xpatch, mdframed}
@@ -275,6 +322,7 @@
 \newcounter{istqbobjective}[section]
 \newcounter{istqbsubobjective}[istqbobjective]
 \newenvironment{istqbobjectives}{%
+  \kern 0.175in\relax
   \def\istqbobjective##1{%
     \stepcounter{istqbobjective}%
     \par\kern -0.03in
@@ -298,3 +346,16 @@
   \setcounter{istqbsubobjective}{0}%
   \par\kern -0.2in
 }
+
+% Index
+\RequirePackage{imakeidx}
+\makeindex[columns=2, columnsep=1cm, noautomatic]
+% Ensure that the index is numbered and part of the table of contents.
+\renewcommand\imki@indexlevel{\section}
+% Remove spaces between indexed items.
+\RequirePackage{etoolbox}
+\apptocmd\theindex{\let\indexspace=\relax}{}{\PatchFailed}
+
+% Hyperlinks
+\PassOptionsToPackage{hidelinks}{hyperref}
+\RequirePackage{hyperref}
