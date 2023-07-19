@@ -1,4 +1,4 @@
-﻿## Test Processes
+## Test Processes
 
 There are some test processes which are challenging to enable in an agile process. This section covers typical processes and provides suggestions on how to organize them to avoid or successfully address problems.
 

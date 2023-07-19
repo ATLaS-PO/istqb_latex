@@ -1,4 +1,4 @@
-﻿# Quality Assistance – 60 minutes
+# Quality Assistance – 60 minutes
 
 #### Keywords
 

@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 ## Purpose of this Syllabus
 This syllabus outlines the scope of the Agile Test Leadership at Scale certification.

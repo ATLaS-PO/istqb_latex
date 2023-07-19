@@ -1,4 +1,4 @@
-﻿# Test Processes in a Value-Driven Organization – 195 minutes (K4)
+# Test Processes in a Value-Driven Organization – 195 minutes (K4)
 
 #### Keywords
 

@@ -1,4 +1,4 @@
-﻿# Organizational Test Strategy in a Value-Driven Organization – 165 minutes (K4)
+# Organizational Test Strategy in a Value-Driven Organization – 165 minutes (K4)
 
 #### Keywords
 

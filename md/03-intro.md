@@ -1,4 +1,4 @@
-﻿#	Continuous Improvement of Quality and Testing – 150 minutes
+#	Continuous Improvement of Quality and Testing – 150 minutes
 
 #### Keywords
 

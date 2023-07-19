@@ -1,4 +1,4 @@
-﻿## Establish an Organizational Test Strategy
+## Establish an Organizational Test Strategy
 
 Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text Introductory Text
 

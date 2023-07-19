@@ -1,4 +1,4 @@
-﻿# Improve Quality and Flow in a Value-Driven Organization – 120 minutes
+# Improve Quality and Flow in a Value-Driven Organization – 120 minutes
 
 #### Keywords
 
