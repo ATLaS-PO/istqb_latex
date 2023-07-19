@@ -1,0 +1,56 @@
+\documentclass{istqb}
+\usepackage[import=istqb/syllabus]{markdown}
+
+% Metadata
+\markdownInput[snippet=istqb/syllabus/metadata]{syllabus-md/metadata.yml}
+
+% Bibliography
+\addbibresource{syllabus-md/bibliography.bib}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright
+\markdownInput{syllabus-md/copyright.md}
+
+% Revision History
+\markdownInput{syllabus-md/revisions.md}
+
+% Table of Contents
+\tableofcontents
+
+% Acknowledgments
+\markdownInput{syllabus-md/acknowledgments.md}
+
+% Document Content
+\markdownInput{syllabus-md/00-intoduction.md}
+\markdownInput{syllabus-md/01-intro.md}
+\markdownInput{syllabus-md/01-quality-assistance.md}
+\markdownInput{syllabus-md/02-intro.md}
+\markdownInput{syllabus-md/02-improve-quality.md}
+\markdownInput{syllabus-md/03-intro.md}
+\markdownInput{syllabus-md/03-continuous-improvement.md}
+\markdownInput{syllabus-md/04-intro.md}
+\markdownInput{syllabus-md/04-organizational-test-strategy.md}
+\markdownInput{syllabus-md/05-intro.md}
+\markdownInput{syllabus-md/05-test-processes.md}
+
+% Appendices
+\markdownInput{syllabus-md/apx-a-cognitive-levels.md}
+
+% Bibliography
+\nocite{*}  % Include references that are not cited in the text
+\printistqbbibliography
+
+% List of Tables
+\listoftables
+
+% List of Figures
+\listoffigures
+
+% Index
+\printindex
+
+\end{document}

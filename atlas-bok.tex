@@ -1,0 +1,59 @@
+\documentclass{istqb}
+\usepackage[import=istqb/syllabus]{markdown}
+
+% Metadata
+\markdownInput[snippet=istqb/syllabus/metadata]{bok-md/metadata.yml}
+
+% Bibliography
+\addbibresource{bok-md/bibliography.bib}
+
+\begin{document}
+
+% Landing Page
+\istqblandingpage
+
+% Copyright
+\markdownInput{bok-md/copyright.md}
+
+% Revision History
+\markdownInput{bok-md/revisions.md}
+
+% Table of Contents
+\tableofcontents
+
+% Acknowledgments
+\markdownInput{bok-md/acknowledgments.md}
+
+% Document Content
+\markdownInput{bok-md/00-intoduction.md}
+\markdownInput{bok-md/01-intro.md}
+\markdownInput{bok-md/01-quality-assistance.md}
+\markdownInput{bok-md/02-intro.md}
+\markdownInput{bok-md/02-improve-quality.md}
+\markdownInput{bok-md/03-intro.md}
+\markdownInput{bok-md/03-continuous-improvement.md}
+\markdownInput{bok-md/04-intro.md}
+\markdownInput{bok-md/04-organizational-test-strategy.md}
+\markdownInput{bok-md/05-intro.md}
+\markdownInput{bok-md/05-test-processes.md}
+
+% Appendices
+\markdownInput{bok-md/apx-a-cognitive-levels.md}
+\markdownInput{bok-md/apx-b-business-outcomes.md}
+\markdownInput{bok-md/apx-c-release-notes.md}
+\markdownInput{bok-md/apx-d-non-testing-terms.md}
+
+% Bibliography
+\nocite{*}  % Include references that are not cited in the text
+\printistqbbibliography
+
+% List of Tables
+\listoftables
+
+% List of Figures
+\listoffigures
+
+% Index
+\printindex
+
+\end{document}
