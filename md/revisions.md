@@ -1,4 +1,4 @@
-# Revision History {-}
+# Revision History {- .revision-history}
 
 | Version | Date | Remarks |
 | --- | --- | --- |
