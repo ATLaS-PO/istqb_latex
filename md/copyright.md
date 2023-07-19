@@ -1,4 +1,4 @@
-# Copyright Notice
+# Copyright Notice {-}
 
 Copyright Notice © International Software Testing Qualifications Board (hereinafter called ISTQB®)
 

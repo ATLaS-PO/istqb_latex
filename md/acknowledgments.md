@@ -1,4 +1,4 @@
-# Acknowledgments
+# Acknowledgments {-}
 
 This document was formally released by the General Assembly of the ISTQB® on \<date\>
 
