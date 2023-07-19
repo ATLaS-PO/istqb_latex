@@ -1,4 +1,4 @@
-﻿## Test Processes
+## Test Processes
 
 ### Testing challenges in scaled agile product development
 

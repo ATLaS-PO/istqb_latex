@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 ## Purpose of this Syllabus
 This syllabus forms the basis for the International Software Testing Qualification for the \<subject\>if applicable at the \<level name\> Level. The ISTQB® provides this syllabus as follows:

@@ -1,1 +1,1 @@
-﻿# Quality Assistance – 60 minutes {#quality-assistance}
+# Quality Assistance – 60 minutes {#quality-assistance}

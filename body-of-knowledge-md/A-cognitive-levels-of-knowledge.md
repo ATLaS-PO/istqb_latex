@@ -1,4 +1,4 @@
-﻿#	Appendix A – Learning Objectives/Cognitive Level of Knowledge
+#	Appendix A – Learning Objectives/Cognitive Level of Knowledge
 
 The following learning objectives are defined as applying to this syllabus. Each topic in the syllabus will be examined according to the learning objective for it.
 

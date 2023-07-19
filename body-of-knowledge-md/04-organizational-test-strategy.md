@@ -1,4 +1,4 @@
-﻿## Establish an Organizational Test Strategy
+## Establish an Organizational Test Strategy
 
 Test strategies exist on different levels of abstraction:
 
