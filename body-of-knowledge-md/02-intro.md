@@ -1,0 +1,3 @@
+﻿# Improve Quality and Flow in a Value-Driven Organization – 120 minutes {#improve-quality-and-flow-in-a-value-driven-drganization}
+
+As discussed in section 0.9 Business Context in the CTAL-ATLaS Syllabus, organizations are combining principles, frameworks, methods, processes, and practices from different disciplines or approaches to move toward business agility. Many organizations are focusing on identifying the value they deliver and organizing themselves to optimize their value streams. This is aimed at quickly delivering value to customers in an increasingly fast-changing world.
