@@ -1,16 +1,13 @@
-﻿# 2 Improve Quality and Flow in a Value-Driven Organization – 120 minutes
+# Improve Quality and Flow in a Value-Driven Organization – 120 minutes
 
-**Keywords**  
-Effectiveness, Efficiency  
+#### Keywords
 
-**Learning Objectives for Chapter 2:**  
+effectiveness, efficiency
 
-**2.1 Facilitate Value Stream Mapping**  
+#### Learning Objectives for Chapter 2: {.learning-objectives}
 
-ATLaS-2.1.1	(K2) Understand value stream as a concept  
-
-ATLaS-2.1.2	(K3) Apply value stream mapping as an agile test leader to understand and visualize working flows  
-
-**2.2 Analyze a Value Stream from a Quality and Testing Perspective**  
-
-ATLaS-2.2.1	(K4) Analyze a value stream to identify waste and other quality and testing issues using basic metrics  
+1. Facilitate Value Stream Mapping
+    1. (K2) Understand value stream as a concept
+    2. (K3) Apply value stream mapping as an agile test leader to understand and visualize work flows
+2. Analyze a Value Stream from a Quality and Testing Perspective
+    1. (K4) Analyze a value stream to identify waste and other quality and testing issues using basic metrics
