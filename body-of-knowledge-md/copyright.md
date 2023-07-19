@@ -15,9 +15,3 @@ Any individual or group of individuals may use this syllabus as the basis for ar
 Any other use of this syllabus is prohibited without first obtaining the approval in writing of the ISTQB®.
 
 Any ISTQB®-recognized Member Board may translate this syllabus provided they reproduce the abovementioned Copyright Notice in the translated version of the syllabus.
-
-# Revision History
-
-| Version | Date | Remarks |
-| --- | --- | --- |
-| V2.0 | 2023/MM/DD | Release version |
