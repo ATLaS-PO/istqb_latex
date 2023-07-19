@@ -5,9 +5,17 @@
   {0.0.1}%
   {LaTeX theme for the Markdown Package that typesets ISTQB Syllabi}
 
+% Hybrid Markdown + LaTeX text
+\markdownSetup{
+  rawAttribute,
+}
+
+% Lists
+\markdownSetup{
+  hashEnumerators,
+}
+
 % Metadata
-\str_new:N \g_istqb_title_str
-\str_new:N \g_istqb_code_str
 \markdownSetupSnippet
   { metadata }
   {
@@ -109,14 +117,30 @@
         \markdownSetup
           {
             rendererPrototypes = {
-              %% Learning objectives
               attributeClassName = {
+                %% Unnumbered sections
+                \tl_if_eq:nnT
+                  { ##1 }
+                  { unnumbered }
+                  {
+                    \markdownSetup
+                      {
+                        rendererPrototypes = {
+                          headingOne = {
+                            \section * { ####1 }
+                            \addcontentsline { toc } { section } { ####1 }
+                            \markboth { ####1 } { ####1 }
+                          },
+                        }
+                      }
+                  }
+                %% Learning objectives
                 \tl_if_eq:nnT
                   { ##1 }
                   { learning-objectives }
                   {
-                    \kern 0.175in  % extra space above learning objectives
                     \group_begin:
+                    \begin { istqb objectives }
                     \markdownSetup
                       {
                         rendererPrototypes = {
@@ -155,12 +179,11 @@
                                     \next
                                   },
                                   olEnd = {
-                                    \end { istqb objectives }
                                     \group_end:
+                                    \end { istqb objectives }
                                   },
                                 }
                               }
-                            \begin { istqb objectives }
                           },
                           headerAttributeContextEnd = {
                             \group_end:
