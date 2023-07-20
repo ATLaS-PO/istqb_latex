@@ -226,7 +226,7 @@ High cost of support and development of platform solutions
 
 Usually a tool-centered approach. Stream aligned teams need to understand the tools and accept them as being useful.
  |
-| Сomplicated-subsystem
+| Complicated-subsystem
  | Cooperate with stream aligned teams
 
 Operate interfaces
@@ -251,7 +251,7 @@ Enabling teams can facilitate improvements that stream aligned teams would not f
 
 Recruiting and maintaining such a team for temporary needs and tasks can be expensive
 
-Сan make sense in agile software development as long term solution, if they help stream aligned teams to concentrate on their domain.
+Can make sense in agile software development as long term solution, if they help stream aligned teams to concentrate on their domain.
  |
 
 : Advantages and disadvantages of typical teams behavior. \label{table:advantagesAndDisadvantages}
