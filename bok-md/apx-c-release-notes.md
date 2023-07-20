@@ -18,7 +18,6 @@ This major release has made the following changes:
   * 15 LO in 2018 compared with 24 LO in 2011.
 * More emphasis on review, a K3 LO has been added to chapter 3.
   * Static Analysis by Tools section is removed, and will be covered in other syllabi.
-
 * More emphasis on test techniques in chapter 4.
   * Section 4.1 of 2011 moved and merged with section 1.4 of chapter 1.
 * Agile is mentioned in the content of the syllabus.
