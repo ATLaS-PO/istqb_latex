@@ -1,5 +1,4 @@
-# Appendix A – Learning Objectives/Cognitive Level of Knowledge
-
+# Learning Objectives/Cognitive Level of Knowledge
 
 The following learning objectives are defined as applying to this syllabus. Each topic in the syllabus will be examined according to the learning objective for it.
 
@@ -12,7 +11,7 @@ The candidate will remember, recognize and recall a term or concept.
 **Action verbs:** Recall, recognize.
 
 | **Examples** |
-| --- |
+| ------------ |
 | Recall the concepts of the test pyramid. |
 | Recognize the typical objectives of testing. |
 
@@ -23,9 +22,9 @@ The candidate can select the reasons or explanations for statements related to t
 **Action verbs** : Classify, compare, differentiate, distinguish, explain, give examples, interpret, summarize
 
 | **Examples** | **Notes** |
-| --- | --- |
+| ------------ | --------- |
 | Classify test tools according to their purpose and the test activities they support. |
- |
+
 | --- | --- |
 | Compare the different test levels.
 
