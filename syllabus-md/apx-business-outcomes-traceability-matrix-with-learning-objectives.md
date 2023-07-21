@@ -1,5 +1,3 @@
-# Appendix B – Business Outcomes traceability matrix with Learning Objectives
-
 This section lists the traceability between \<level name\> Level Business Outcomes and \<level name\> Level Learning Objectives.
 
 | Business Outcomes: \<level name\> | FL-BO1 | FL-BO2 | FL-BO3 | FL-BO4 | FL-BO5 | FL-BO6 | FL-BO7 | … |
@@ -19,5 +17,5 @@ This section lists the traceability between \<level name\> Level Business Outcom
 | FL-1.1.2 | Differentiate testing from debugging (K2) | K2 | X |  |  |  |  |  |  |  |
 | 1.2 | Why is Testing Necessary? |  |  |  |  |  |  |  |  |  |
 | FL-1.2.1 | Give examples of why testing is necessary (K2) | K2 | X |  |  |  |  |  |  |  |
-| FL-1.2.2 | Describe the relationship between QA and testing and give examples of how testing contributes to higher quality (K2) | K2 |  | X |  |  |  |  |  |  |
+| FL-1.2.2 | Describe the relationship between testing and quality assurance and give examples of how testing contributes to higher quality (K2) | K2 |  | X |  |  |  |  |  |  |
 | … | … |  |  |  |  |  |  |  |  |  |

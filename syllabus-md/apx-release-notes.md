@@ -1,5 +1,3 @@
-# Appendix C – Release Notes {#release-notes}
-
 ISTQB® Foundation Syllabus 2018 is a major update and rewrite of release 2011. For this reason, there are no detailed release notes per chapter and section. However, a summary of principal changes is provided here. Additionally, in a separate Release Notes document, ISTQB® provides traceability between the learning objectives in the 2011 version of the Foundation Level Syllabus and the learning objectives in the 2018 version of the Foundation Level Syllabus, showing which have been added, updated, or removed.
 
 At the start of 2017 more than 550,000 people in more than 100 countries have taken the foundation exam, and more than 500,000 are certified testers worldwide. With the expectation that all of them have read the Foundation Syllabus to be able to pass the exam, this makes the Foundation Syllabus likely to be the most read software testing document ever!

@@ -7,13 +7,13 @@ Quality management ties together disciplines like quality control (QC) and testi
 
 As can be seen from <#figure:QualityAssistance> there are overlaps between the various practices and approaches.
 
-![QualityAssistance](RackMultipart20230716-1-22hy1u_html_4a4dafa5ebf32257.png "Quality assistance as an approach to quality management.")
+![QualityAssistance](fig/quality-assistance.eps "Quality assistance as an approach to quality management.")
 
 ## Quality Assistance Applied to Test Management
 
 Agile test management draws upon methods and techniques from traditional software quality management and combines these with new mindset, culture, behaviors, methods, and techniques from quality assistance. See <#figure:AgileTestManagement> for the relationships. Judging which aspect to include from each approach is highly context dependent. However, if the organization is striving to increase its business agility, then adopting a quality assistance approach will support this direction.
 
-![AgileTestManagement](RackMultipart20230716-1-22hy1u_html_a551d576e943b9a7.png "Agile test management combines approaches.")
+![AgileTestManagement](fig/agile-test-management.eps "Agile test management combines approaches.")
 
 Traditional test management has a tendency to focus on managing and controlling the work of others. Test management in the agile organization has a broader scope than solely focusing on testing the software. By shifting agile test management to a quality assistance approach, agile test leaders spend more time enabling and empowering others to do the test management themselves. The aim of this support is to contribute to the improvement of the organization's QA and testing skills with a view to enabling better cross-functional team collaboration.
 

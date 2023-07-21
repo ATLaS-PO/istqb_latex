@@ -12,13 +12,13 @@ All value streams include actions to process information from the customer and a
 
 Value streams can be categorized as operational or development.
 
-Operational value streams are all the working steps and people required to bring a product from[@lean:2014]. For example, a telco operator messaging service contains five working steps, from client subscription to the delivery of its message. This could be visualized as in the diagram at <#figure:QualityAssistance>.
+Operational value streams are all the working steps and people required to bring a product from[@lean:2014]. For example, a telco operator messaging service contains five working steps, from client subscription to the delivery of its message. This could be visualized as in the diagram at <#figure:MessagingService>.
 
-![MessagingService](RackMultipart20230716-1-22hy1u_html_838ab0f380f3442c.png "Example of messaging service.")
+![MessagingService](fig/example-of-messaging-service.eps "Example of messaging service.")
 
-Development value streams take a product from concept to market launch [@lean:2014]. This could be visualized as in the diagram at <#figure:QualityAssistance>.
+Development value streams take a product from concept to market launch [@lean:2014]. This could be visualized as in the diagram at <#figure:DevelopmentValueStream>.
 
-![DevelopmentValueStream](RackMultipart20230716-1-22hy1u_html_dd877244abc25e7d.png "Example of a development value stream (simplified).")
+![DevelopmentValueStream](fig/example-of-development-value-stream.eps "Example of a development value stream (simplified).")
 
 In some cases, the operational and development value streams can be the same, e.g., a company that develops and delivers IT solutions. Agile test leaders participate in identifying and analyzing value streams.
 
@@ -42,23 +42,23 @@ The benefit of VSM is an improved flow of value, done by constantly improving th
 There are different notations used in VSM. The technique was first used to analyze and improve manufacturing systems, but has since been adapted to fit other industries such as software development and product development. As a starting point, one suggestion is to use a simple notation suitable for service or product development. See the example in <#figure:TotalLT>.
 
 |
- ![workingStep](RackMultipart20230716-1-22hy1u_html_f74643f1821a619c.png) |
+ ![workingStep](fig/working-step.eps) |
 A working step or process activity. |
 | --- | --- |
 |
- ![ProductUnderDevelopment](RackMultipart20230716-1-22hy1u_html_da651ddaf4073360.png) | Product under development moving from one working step to another one. |
-| ![PerformingActivities](RackMultipart20230716-1-22hy1u_html_595ccd6538f1448.png) |
+ ![ProductUnderDevelopment](fig/product-under-development.eps) | Product under development moving from one working step to another one. |
+| ![PerformingActivities](fig/people-team-function.eps) |
 People, team(s), or function(s) performing the activities in the working step. |
 |
- ![ContainsMetrics](RackMultipart20230716-1-22hy1u_html_7b2d9c3bae0c3543.png) | Data about a working step. Contains metrics and their values, which are required to understand the system; e.g., lead time (LT)= 22 hours and processing time (PT) = 1 hour. For the definition of LTand PT, see section [Metrics for Analyzing a Value Stream] (#section:metrics-for-analyzing-a-value-stream). |
+ ![ContainsMetrics](fig/contains-metrics.eps) | Data about a working step. Contains metrics and their values, which are required to understand the system; e.g., lead time (LT)= 22 hours and processing time (PT) = 1 hour. For the definition of LTand PT, see section [Metrics for Analyzing a Value Stream] (#section:metrics-for-analyzing-a-value-stream). |
 |
- ![Inventory](RackMultipart20230716-1-22hy1u_html_1be6bfbd872d154f.png)
+ ![Inventory](fig/Inventory.eps)
  | Inventory between two working steps, e.g., the number underneath the symbol indicates the number of tasks piling up, which is 30. For the definition of inventory, see section [Identify Non-Value-Adding Activities (Waste)](#section:identify-non-value-adding-activities). |
 |
- ![TimelineForWorkingStep](RackMultipart20230716-1-22hy1u_html_7b14331a0a95f8fd.png) |
+ ![TimelineForWorkingStep](fig/Inventory.eps) |
 Timeline for each working step, usually comprises wait time andPT. |
 |
- ![TotalLT](RackMultipart20230716-1-22hy1u_html_321cd3cbe791f43d.png "Simple notation for value stream mapping.") |
+ ![TotalLT](fig/all-working-step.eps "Simple notation for value stream mapping.") |
 Sum of all working steps for the entire value stream, e.g., total LT and total PT. |
 
 As the concept is coming from manufacturing, there are a lot more symbols available, especially to represent material and information flow.
@@ -84,7 +84,7 @@ In the context of QA and testing, VSM can be used as part of a continuous improv
 
 As VSM focuses on a higher level of abstraction than a single process, the technique should not be used for analyzing processes in detail. Equally, the technique requires a broad perspective and should not be used by a single person or a small group that includes people representing only one function or one working step in the value stream.
 
-![DevelopmentDiagram](RackMultipart20230716-1-22hy1u_html_ad5fa00b8334b210.png "Basic as-is diagram for a development value stream.")
+![DevelopmentDiagram](fig/basic-as-is-diagram.eps "Basic as-is diagram for a development value stream.")
 
 If VSM is not yet used in the organization (e.g., facilitated by a scrum master, leader, agile coach, or other type of facilitator), there may be opposition to it. As it requires different people to participate, it is important to get the buy-in from these people and potentially from their leaders.
 
@@ -131,7 +131,7 @@ The diagram in <#figure:StateDiagram> is an example of a value stream map where 
 
 Metrics are vital for analyzing a value stream, but it can be a challenge to measure consistently throughout the value stream.As a starting point, use the data that is available. If data is missing, the group doing VSM need to find relevant people who can help estimate the data that is not yet measured and collected.
 
-![StateDiagram](RackMultipart20230716-1-22hy1u_html_d4c8cf4b3e1c0eb0.png "Basic current state diagram with flow and quality measurements.")
+![StateDiagram](fig/basic-current-state-diagram.eps "Basic current state diagram with flow and quality measurements.")
 
 The group should literally "go and see" how the people throughout the value stream work. This is also called [@wikipedia:2021]. By observing and talking with the people, team(s), and function(s) working in the value stream, the group doing value stream analysis can:
 
@@ -161,7 +161,7 @@ The following are examples from the eight types of waste.
 * Transport: Moving work in process (WIP) from place to place in a process [@liker:2006]. It can be movement of products, information, and material, e.g., several remotetesters exchange too much information via emails in addition to all the team meetings they attend.The excessive movement of information may lead to errors and rework.
 * Inventory: More than the minimum stock necessary [@lean:2014].This can be whatever is waiting for an input to progress within a process, or waiting because nobody is working on it, e.g., testers create detailed tests for future use but important architectural decisions about the system are pending.The decisions are not expected to be made in the short term, so the tests become inventory and may require additional work once the decisions are made.
 
-![PhaseContainmentEfficiency](RackMultipart20230716-1-22hy1u_html_5a921ad85d773229.png "Example of Phase Containment Efficiency")
+![PhaseContainmentEfficiency](fig/example-of-phase-containment-efficiency.eps "Example of Phase Containment Efficiency")
 
 * Motion: Unnecessary movement or activities in a working step or between working steps that do not add value to the product [@lean:2014], e.g., being forced to change the state of a defect report because the workflow in the defect management tool does not allow steps to be skipped even if it does not help coordinate the work through the defect's lifecycle.
 * Waiting: Operators standing idle [@lean:2014]. Any person waiting for something (information, work done by others, access to a machine or resource), e.g., testers not progressing in their work because of the network slowing down or because downtime of the test environment interrupts test execution.
@@ -207,4 +207,4 @@ Agile test leaders and agile test team leaders can help devise improvement initi
 
 If the organization understands the importance of quality assistance, then value stream mapping can be a powerful technique to introduce as part of the quality assistance effort.
 
-![FutureStateMap](RackMultipart20230716-1-22hy1u_html_511e842ebbe0ac74.png "Example of future state map with improvement goals highlighted in red")  
+![FutureStateMap](fig/example-of-future-state-map.eps "Example of future state map with improvement goals highlighted in red")  

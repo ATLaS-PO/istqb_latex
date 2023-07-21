@@ -101,7 +101,7 @@ As covered in chapter 2, it is important that an agile test leader and an agile 
 
 The following image shows where different types of metrics can be measured:
 
-![metricsOnValueStream](RackMultipart20230716-1-22hy1u_html_c7ea481796376b61.png "Metrics on value stream")
+![metricsOnValueStream](example-image "Metrics on value stream")
 
 To get a better understanding of quality issues an agile test leader and agile test team leader can foster additional testing metrics. Here are examples of metrics covering the three aspects:
 
@@ -202,7 +202,7 @@ It is ideal to organize agile teams to align with a value stream that focuses on
 
 The following figure shows team topologies and their key behaviors in organizations undergoing agile transformation.
 
-![differentTypesOfTeams](RackMultipart20230716-1-22hy1u_html_8953b409cce983fb.png "Example of different types of teams in an organization.")
+![differentTypesOfTeams](example-image "Example of different types of teams in an organization.")
 
 The following table shows the advantages, disadvantages, and typical behavior for the four types of teams:
 
@@ -226,7 +226,7 @@ High cost of support and development of platform solutions
 
 Usually a tool-centered approach. Stream aligned teams need to understand the tools and accept them as being useful.
  |
-| Сomplicated-subsystem
+| Complicated-subsystem
  | Cooperate with stream aligned teams
 
 Operate interfaces
@@ -251,7 +251,7 @@ Enabling teams can facilitate improvements that stream aligned teams would not f
 
 Recruiting and maintaining such a team for temporary needs and tasks can be expensive
 
-Сan make sense in agile software development as long term solution, if they help stream aligned teams to concentrate on their domain.
+Can make sense in agile software development as long term solution, if they help stream aligned teams to concentrate on their domain.
  |
 
 : Advantages and disadvantages of typical teams behavior. \label{table:advantagesAndDisadvantages}

@@ -192,33 +192,29 @@ To create a CLD it is important to have a group of people with different perspec
 #. Identify and describe reinforcing and balancing causal loops
 #. Identify possible interventions to resolve the problem
 
-| ![variable](RackMultipart20230716-1-22hy1u_html_902808437bd60a20.png)
+| ![variable](fig/variable.eps)
  | Variable. An important aspect of the system.Typicallysomething that is quantifiable, e.g., velocity (rate of delivery) of features, quality of the code , number of defects. |
 | --- | --- |
-| ![causalLink](RackMultipart20230716-1-22hy1u_html_afe01db51566e718.png)
+| ![causalLink](fig/causal-link.eps)
 
  | Causal link. Shows that there is a relation between variables, e.g., if the number of defects increases, then the amount of waste increases, and vice versa. |
-| ![plusSign](RackMultipart20230716-1-22hy1u_html_f33bc89d1db42a6f.png)
+| ![plusSign](fig/plus-sign.eps)
  | Plus sign (+). Shows that a change in one variable leads to a change in the second variable in the same direction, e.g., if the number of testers available to work decreases, the organizational productivity will also decrease. |
-| ![minusSign](RackMultipart20230716-1-22hy1u_html_8d3a83ddc56e112.png) | Minus sign (-). Shows that a change in the first variable causes a change in the opposite direction in the second variable, e.g., if the number of experienced testers goes down, then the number of defects goes up, and vice versa. |
-| ![delay](RackMultipart20230716-1-22hy1u_html_b8101bb0748796c5.png) | Delay. If there is a significant time delay between the changeof a variable and the influence on the depending variable, this is marked with "DELAY" on the arrows. |
-| ![balance](RackMultipart20230716-1-22hy1u_html_48bbdbf55340cf1b.png)
+| ![minusSign](fig/minus-sign.eps) | Minus sign (-). Shows that a change in the first variable causes a change in the opposite direction in the second variable, e.g., if the number of experienced testers goes down, then the number of defects goes up, and vice versa. |
+| ![delay](fig/delay.eps) | Delay. If there is a significant time delay between the changeof a variable and the influence on the depending variable, this is marked with "DELAY" on the arrows. |
+| ![balance](fig/balance.eps)
  | Balance (B).The causal influences in the loop keep things in balance.Loops with an odd number of minus signs are balancing. |
 |
- ![reinforce](RackMultipart20230716-1-22hy1u_html_d496fbcb70de2be9.png) | Reinforce (R).The causal relationships within the loop createexponentialgrowth.Loops with an even number of minus signs are reinforcing. |
+ ![reinforce](fig/reinforce.eps) | Reinforce (R).The causal relationships within the loop createexponentialgrowth.Loops with an even number of minus signs are reinforcing. |
 |
- ![goal](RackMultipart20230716-1-22hy1u_html_73db38e85e39efa6.png)
+ ![goal](fig/goal.eps)
 
 goal:desiredquality
-
-
-
-
  | Goal.The outcome that someone wants to achieve. Teams,people, complex systems, and organizations have goals. |
 
 : Notation and examples in casual loop diagrams. \label{table:label}
 
-![genericCLDnotation](RackMultipart20230716-1-22hy1u_html_c2aef9ea74b8d9e6.png "Example of a generic CLD notation.")
+![genericCLDnotation](fig/example-of-generic-cld-notation.eps "Example of a generic CLD notation.")
 
 It can take several sessions to visualize a complex system. One important aspect is to qualify the effects with data from real life. Otherwise, the model may just reinforce existing mental models and not show the flaws they might have.
 
@@ -230,9 +226,9 @@ Tips that help to visualize CLDs concisely and meaningfully are:
 
 One could add "quality gap" and "desired quality" to <#figure:diagramWithoutGoal> to emphasize that "quality" reduces "quality gap" and "quality gap" is a driver for "actions to improve quality."
 
-![diagramWithoutGoal](RackMultipart20230716-1-22hy1u_html_44a3da2aa7d34d12.png "Example of a simple causal loop diagram without a goal.")
+![diagramWithoutGoal](fig/causal-loop-diagram-without-goal.eps "Example of a simple causal loop diagram without a goal.")
 
-![diagramWithSpecifiedGoal](RackMultipart20230716-1-22hy1u_html_25bbbf1409bc1db0.png "Example of a causal loop diagram with a specified goal.")
+![diagramWithSpecifiedGoal](fig/causal-loop-diagram-with-goal.eps "Example of a causal loop diagram with a specified goal.")
 
 In <#figure:diagramWithSpecifiedGoal>, the "desired quality" box is added outside the loop to show that it should not be changed during a quality cycle.
 
@@ -240,7 +236,7 @@ In <#figure:diagramWithSpecifiedGoal>, the "desired quality" box is added outsid
 * It can be helpful to start with variables that sum up multiple aspects for a first understanding (e.g., "test automation maturity" can be a starting variable and later be split in "percentage of test scripts automated", "test environment maturity", "number of test automation katas held").
 * Add additional larger loop cycles if needed to add long-term to short-term consequences (e.g., "independent test assessment" raises "quality", but, as shown in <#figure:causalLoopDiagram>, an additional path might be "perceived pressure in the teams" adds to "hiding of problems" that lowers "overall quality," since root causes are hidden by teams and become less visible for the organization).
 
-![causalLoopDiagram](RackMultipart20230716-1-22hy1u_html_7ef86585302c17f1.png "Example of a causal loop diagram with short-term and long-term consequences.")
+![causalLoopDiagram](fig/causal-loop-diagram-short-long-consequences.eps "Example of a causal loop diagram with short-term and long-term consequences.")
 
 * If a link requires too much explanation it can be refined adding extra variables (e.g., if it is unclear why "market demand" lowers "quality," a new variable, "pressure to release," could be added).
 * A CLD should concentrate on genuine causal relationships (e.g., a diagram should avoid stating that the "number of test cases" raises "product sales." It could, on the other hand, argue that the "number of opportunities to find and fix gaps" that can be found in the development process raises the "overall number of test cases" on the one hand and raises "product quality" and hence "product sales" on the other hand).

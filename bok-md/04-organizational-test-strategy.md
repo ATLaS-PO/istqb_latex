@@ -18,7 +18,7 @@ To improve a test strategy in the context of DevOps, it is important to have a p
 
 A common visualization for DevOps is to represent the development and operations stages as one cycle in an infinite loop. The loop highlights a key DevOps goal of reducing lead time and delivering value faster. The individual stages in the loops are represented differently depending on the context. A generic version is shown in <#figure:devOpsInfiniteLoop>.
 
-![devOpsInfiniteLoop](RackMultipart20230716-1-22hy1u_html_a53cd3b1ecc54d12.png "Generic version of the DevOps infinite loop.")
+![devOpsInfiniteLoop](example-image "Generic version of the DevOps infinite loop.")
 
 DevOps accelerates delivery of value by optimizing the loop's key elements: operation, monitoring, exploration, coding, integration and release. As DevOps maturity advances, frequent code deployments and faster lead times into staging and production environments speed up the cycle. Improved incident recovery and reduced change failure rates further enhances this process.
 
@@ -291,7 +291,7 @@ Conducting assessments provides value if it helps teams understand and evaluate 
 
 Agile test leadership can support organizations using an agile scaling framework on different levels.
 
-![agileAtScale](RackMultipart20230716-1-22hy1u_html_3a318f9c99543e0d.png "Link between level in organization and Agile at Scale.")
+![agileAtScale](example-image "Link between level in organization and Agile at Scale.")
 
 **Organizational Level**
 
