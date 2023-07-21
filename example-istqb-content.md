@@ -38,7 +38,7 @@ Section references with custom text:
 
 - You can add link to the section with custom text like this [testing principles](#section:seven-testing-principles). And it doesn't matter if the section is in this or any other MD document.
 
-For more information, see the documentation of the Markdown package for \TeX [@novotny:2017].
+For more information, see the documentation of the Markdown package for \TeX{} referenced in section *Further Reading* at the end of this document.
 
 ### Figures
 
