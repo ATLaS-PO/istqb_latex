@@ -13,7 +13,7 @@ https://less.works/less/framework/index
 Readers are encouraged to check these sites if they find unfamiliar agile-related terms in this document. These links were active at the time of release of this document.
 
 | Term Name        | Definition   |
-|:---------------- |:-------------|
+|:---------------- |--------------|
 | canary release   | A deployment strategy whereby changes are initially released to a small subset of users. |
 | change leadership| The ability to positively influence and motivate others to engage in the organizational change through the leader’s own personal advocacy and drive.  |
 | change management| A structured approach to implementing change in an organization. This may encompass addressing training needs, appointing change agents, providing support for people across the organization, and setting specific success criteria.|
