@@ -31,6 +31,10 @@ Readers are encouraged to check these sites if they find unfamiliar agile-relate
 | leading indicator| A measure that allows prediction of outcomes before the outcomes are fully accomplished. |
 | lean thinking    | A way of thinking about creating needed value with fewer resources and less waste. |
 | LeSS  | Large Scaled Scrum      |
+
+| Term Name        | Definition   |
+|:---------------- |--------------|
+
 | microservice     | An approach to developing a single application as a suite of small services, each running in its own process that are independently deployable, loosely coupled and organized around business capabilities. |
 | MMF   | Minimum marketable feature , an early version of the solution used to evaluate the primary business hypothesis. |
 | MVP   | Minimum viable product, an early version of the solution used to evaluate the primary business hypothesis. |
