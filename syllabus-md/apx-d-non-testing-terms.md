@@ -50,6 +50,9 @@ Readers are encouraged to check these sites if they find unfamiliar agile-relate
 
 For common terms related to business agility, see the following well-accepted Internet resources for definitions.
 
-[https://www.scaledagileframework.com/glossary/](http://www.scaledagileframework.com/glossary/) https://less.works/less/framework/index [https://www.scrum.org/resources/what-is-scrum](http://www.scrum.org/resources/what-is-scrum)[http://www.scrumalliance.org/](http://www.scrumalliance.org/)
+http://www.scaledagileframework.com/glossary/  
+https://less.works/less/framework/index  
+https://www.scrum.org/resources/what-is-scrum  
+http://www.scrumalliance.org/  
 
 Readers are encouraged to check these sites if they find unfamiliar agile-related terms in this document. These links were active at the time of release of this document.
