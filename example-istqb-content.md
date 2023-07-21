@@ -52,11 +52,11 @@ You can reference the image from the text of the document as follows: <#figure:e
 
 Here is an example table:
 
- | Right | Left | Default | Center |
- |------:|:-----|---------|:------:|
- |   12  |  12  |    12   |    12  |
- |  123  |  123 |   123   |   123  |
- |    1  |  1   |   1     |     1  |
+ | Right | Left | Center | Default |
+ |------:|:-----|:------:|---------|
+ |   12  |  12  |    12  |    12   |
+ |  123  |  123 |   123  |   123   |
+ |    1  |  1   |     1  |   1     |
 
  : Here is a caption describing the table. \label{table:label}
 
