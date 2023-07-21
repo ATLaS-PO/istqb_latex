@@ -1,4 +1,4 @@
-#Non Testing Domain Specific Terms
+# Non Testing Domain Specific Terms
 
 For common terms related to business agility, see the following well-accepted resources available on the Internet for definitions:
 
